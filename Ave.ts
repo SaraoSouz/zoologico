@@ -1,25 +1,25 @@
-class Ave extends Animal{
-    private envergadura: float;
-    constructor(_envergadura: string, _nome: string, _idade: number, _genero: string ){
+class Ave extends Animal {
+    private envergadura: number;
+    constructor(_envergadura: number, _nome: string, _idade: number, _genero: string) {
         super(_nome, _idade, _genero);
-        this.envergadura = _envergadura
+        this.envergadura = _envergadura;
     }
 
     /**
-     * Retorna a raça do animal
-     *
-     * @returns raca : raça do animal
-     */
-    public getEnvergadura(): void {
+      * Retorna a envergadura da pessoa
+      *
+      * @returns envergadura : envergadura da pessoa
+      */
+    public getEnvergadura(): number {
         return this.envergadura;
     }
 
     /**
-     * Atribui o parâmetro ao atributo animal
+     * Atribui o parâmetro à envergadura
      *
-     * @param _envergadura : raça do animal
+     * @param _envergadura : envergadura da pessoa
      */
-    public setEnvergadura(_envergadura: float): void {
+    public setEnvergadura(_envergadura: number): void {
         this.envergadura = _envergadura;
     }
 }
