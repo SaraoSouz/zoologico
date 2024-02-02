@@ -1,6 +1,8 @@
-class Reptil extends Animal{
+import { Animal } from "./Animal";
+
+export class Reptil extends Animal{
     private escama: string;
-    constructor(_escama: string, _nome: string, _idade: number, _genero: string ){
+    constructor( _nome: string, _idade: number,  _genero: string, _escama: string ){
         super(_nome, _idade, _genero);
         this.escama = _escama
     }
