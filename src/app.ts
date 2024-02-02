@@ -23,8 +23,8 @@ server.get('/', (req, res) => {
 
 server.post('/ave', (req, res) => {
     const {nome, idade, genero, envergadura} = req.body;
-    let ave: Ave = new Ave('nome', idade, 'genero', envergadura);
-    res.json(ave);
+    let ave: Ave = new Ave(nome, idade, genero, envergadura);
+    res.json(["a nova ave do zoologico é:", ave]);
 
 });
 
