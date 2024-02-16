@@ -1,8 +1,15 @@
 import { Animal } from "./Animal";
 import { Atracao } from "./Atracao";
 
+
+/**
+ * Representa o zoológico, onde as atrações vivem.
+ */
 export class Zoologico {
 
+    /**
+ * nome das atrações.
+ */
     private nome: string;
     private lista_de_atracoes: Array<Atracao>;
 

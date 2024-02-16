@@ -1,5 +1,8 @@
 import { Animal } from "./Animal";
 
+/**
+ * Representa um animal do zoologico.
+ */
 export class Ave extends Animal {
     private envergadura: number;
     constructor( _nome: string, _envergadura: number,  _genero: string, _idade: number,) {

@@ -1,10 +1,30 @@
 import { Animal } from "./Animal";
-import { Habitat } from "./habitats";
+import { Habitat } from "./Habitats";
+
+/**
+ * Representa uma atração no zoológico.
+ */
 
 export class Atracao {
 
+     /**
+     * O nome da atração.
+     */
+
     private nome: string;
+
+    /**
+     * A lista de habitat que habitam as atrações.
+     */
+
     private lista_de_habitat: Array <Habitat>;
+
+    /**
+     * Cria uma nova instância de Atracao.
+     * 
+     * @param _nome O nome da atração.
+     * @param _listaHabitat A lista de habitats que habitam as atrações.
+     */
 
     constructor(_nome: string,
         _lista_de_habitat: Array <Habitat>,) {

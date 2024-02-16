@@ -1,5 +1,9 @@
 export class Animal {
     
+
+    /**
+     * descrição do animal.
+     */
     private nome: string;
     private idade: number;
     private genero: string;
