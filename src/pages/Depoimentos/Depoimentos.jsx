@@ -1,13 +1,12 @@
-import './Depoimentos.css'
-import Navegacao from '../../components/Navegacao/Navegacao';
-import ListaAnimais from '../../components/ListaAnimais/ListaAnimais';
+import ListaAnimais from '../../components/Tabelas/ListaAnimais';
+import Navegacao from '../../components/Navegacao/Navegacao'
 
 function Depoimentos() {
-
     return (
         <>
-            <Navegacao/>
-            <ListaAnimais/>
+            {/* Renderiza o componente Navegacao.jsx */}
+            <Navegacao />
+            <h1>Nada aqui ainda</h1>
         </>
     );
 }
